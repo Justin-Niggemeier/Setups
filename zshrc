@@ -8,8 +8,6 @@ fi
 # Aktivieren von Farben
 autoload -U colors && colors
 
-
-
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -19,6 +17,9 @@ alias lsa="ls -lah --color=always | awk '{print \$6, \$7, \$8, \$5, \$9}'"
 alias ll='ls -lh'
 
 alias dirs="dirs -v"
+
+alias tma="tmux attach -t"
+alias tmn="tmux new-session -t"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -30,7 +31,6 @@ zstyle ':omz:update' frequency 14
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/powerlevel10k/powerlevel10k.zsh-theme
