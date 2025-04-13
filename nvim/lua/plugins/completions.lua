@@ -25,8 +25,6 @@ return {
       cmp.setup({
         snippet = {
           expand = function(args)
-            -- Beide Engines aktiv (falls benötigt)
-            vim.fn["vsnip#anonymous"](args.body)  -- Für vsnip
             luasnip.lsp_expand(args.body)         -- Für luasnip
           end,
         },
