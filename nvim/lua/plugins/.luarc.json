@@ -4,5 +4,8 @@
         "cmp",
         "snippy",
         "has_words_before"
+    ],
+    "diagnostics.disable": [
+        "undefined-doc-name"
     ]
 }

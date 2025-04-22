@@ -9,6 +9,10 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     lazy = false,
+        dependencies = {
+      "hrsh7th/nvim-cmp",
+      "hrsh7th/cmp-nvim-lsp",
+    },
     opts = {
       auto_install = true,
     },
@@ -27,8 +31,7 @@ return {
         capabilities = capabilities
       })
       lspconfig.clangd.setup({
-        -- das hier muss zum lokalen Speicherort geändert werden
-        cmd = { "/usr/bin/clangd" },
+        -- cmd = {"/usr/bin/clang"},
         capabilities = capabilities
       })
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})

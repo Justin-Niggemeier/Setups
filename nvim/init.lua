@@ -15,6 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 -----------------------------------------------------------
 -- Global Diagnostics & Highlight Setup
 -----------------------------------------------------------
+
+-- Speeds up things somehow
+vim.loader.enable()
+
 vim.diagnostic.config({
   virtual_text = {
     prefix = '',  -- Symbol für virtuelle Fehlermeldungen (anpassbar)
