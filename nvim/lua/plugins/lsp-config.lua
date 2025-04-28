@@ -9,7 +9,7 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     lazy = false,
-        dependencies = {
+    dependencies = {
       "hrsh7th/nvim-cmp",
       "hrsh7th/cmp-nvim-lsp",
     },
@@ -25,8 +25,27 @@ return {
       local lspconfig = require("lspconfig")
       -- gleiche Struktur, um neue LSP's hinzuzufügen
       lspconfig.basedpyright.setup({
+         settings = {
+          basedpyright = {
+            analysis = {
+              typeCheckingMode = "basic",
+              autoSearchPaths = true,
+              useLibraryCodeForTypes = true,
+              diagnosticMode = "workspace",
+              venvPath = "/home/mm406063/Software",  -- Pfad zu deinen Venv-Ordnern
+              venv = "venv_ceptr",  -- Name des Venv-Ordners
+            },
+            python = {
+              diagnosticMode = "workspace",
+              pythonPath = "/home/mm406063/Software/venv_ceptr/bin/python",
+              venvPath = "/home/mm406063/Software",  -- Pfad zu deinen Venv-Ordnern
+              venv = "venv_ceptr",  -- Name des Venv-Ordners
+            }
+          }
+        },
         capabilities = capabilities
       })
+
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
@@ -36,6 +55,7 @@ return {
       })
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
+      vim.keymap.set('n', 'gr', vim.lsp.buf.references, {})
       vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
     end
   },
