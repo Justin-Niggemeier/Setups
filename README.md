@@ -2,8 +2,8 @@
 If you want the easy way, just clone this git and the the compiled nvim folder, copy it to your '$HOME'-Directory. 
 If you like to keep a newer Versions, you will have to compile nvim on your own or pull a newer **already compiled** Version from the **Neovim-Repository**
 
-**Be sure to include a new Export in your .bashrc/.zshrc to your nvim installation: export PATH="$HOME/$YOUR_NVIM_FILENAME/bin:$PATH", if you did'nt install it diretcly onto the $HOME Repository, be sure to change it acordingly. I like to use ".neovim" so it'll be hidden**
-**Be sure to include a new Export in your .bashrc/.zshrc to your nvim installation: export PATH="$HOME/$YOUR_NVIM_FILENAME/bin:$PATH"** 
+> [!IMPORTANT]
+>**Be sure to include a new Export in your .bashrc/.zshrc to your nvim installation: export PATH="$HOME/$YOUR_NVIM_FILENAME/bin:$PATH", if you did'nt install it diretcly onto the >$HOME Repository, be sure to change it acordingly. I like to use ".neovim" so it'll be hidden**
 
 _If you did'nt install it diretcly onto the $HOME Repository, be sure to change it acordingly. I like to use ".neovim" so it'll be hidden_
 
