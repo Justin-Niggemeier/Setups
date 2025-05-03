@@ -1,4 +1,4 @@
-
+# Neovim
 If you want the easy way, just clone this git and the the compiled nvim folder, copy it to your '$HOME'-Directory. 
 If you like to keep a newer Versions, you will have to compile nvim on your own or pull a newer **already compiled** Version from the **Neovim-Repository**
 
@@ -12,7 +12,7 @@ _This was written by me in a very lightway manner. Things dont load unless they 
 
 Feel free to write your own 'Plugins', but feel even more free to just use mine. I used **Lazy-vim**, a package manager, that takes care of your plugins, as long as you provide the code. Just keep that in mind, if you want to add more files yourself. 
 
-_Lazy is written in lua, you don't really need to understand it, but it#s adviced, if you are plaing on changing things apart from the ones I show you_
+_Lazy is written in lua, you don't really need to understand it, but it's adviced, if you are planing on changing things, apart from the ones I show you_
 
 Just copy the nvim directory into $HOME/.config, this will automatically load all the plugins and install them with the next start. 
 
@@ -29,14 +29,14 @@ It just makes code be colored right. There is more to it. More, that does not re
 _Don't use it, if you are new to the cluster. Just dont keep reeding about this, as I think it will take some nesecary skills away from you_
 
 A pretty looking file tree with some useful twists. Pretty selfexplainatory:
-'C-n' : Toggle the neotree. Also loads the plugin
-'s' : Open File in vertical split
-'S' : Open File in horizontal split
-'bs' : cd .., sets the Tree one directory back, just try it.
-'a' : add new file
-'d' : delete file
-'r': rename file
-'y' : Strg + c
-'x' : Strg + x
-'m' : move selected file
-'p' : Paste the file, regarding if you used 'y' or 'x'
+- 'C-n' : Toggle the neotree. Also loads the plugin
+- 's' : Open File in vertical split
+- 'S' : Open File in horizontal split
+- 'bs' : cd .., sets the Tree one directory back, just try it.
+- 'a' : add new file
+- 'd' : delete file
+- 'r': rename file
+- 'y' : Strg + c
+- 'x' : Strg + x
+- 'm' : move selected file
+- 'p' : Paste the file, regarding if you used 'y' or 'x'
