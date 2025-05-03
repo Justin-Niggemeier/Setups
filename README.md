@@ -30,20 +30,9 @@ _Don't use it, if you are new to the cluster. Just dont keep reeding about this,
 
 A pretty looking file tree with some useful twists. Pretty selfexplainatory:
 Its real fast at editing file strucutres
-Open it with 'C-n' and you can:
-- open files with >Enter
-- open in vertical-split with >s
-- open in horizontal-split with >S
-- goto the upper dir with >Backspace
-- add a new file with >a
-- delete a file with >d
-- rename a file with >r
-- "Strg+c" a file with >y
-- "Strg+x" a file with >x
-- paste the file with >c
-- move the file with >m
 
-  #Hotkeys
+  # Hotkeys
+  ## Neotree
 - `C-n` : Toggle the neotree. Also loads the plugin
 - `s` : Open File in vertical split
 - `S` : Open File in horizontal split
@@ -55,3 +44,5 @@ Open it with 'C-n' and you can:
 - `x` : Strg + x
 - `m` : move selected file
 - `p` : Paste the file, regarding if you used 'y' or 'x'
+
+## Other
