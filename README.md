@@ -44,14 +44,14 @@ Open it with 'C-n' and you can:
 - move the file with >m
 
   #Hotkeys
-- 'C-n' : Toggle the neotree. Also loads the plugin
-- 's' : Open File in vertical split
-- 'S' : Open File in horizontal split
-- 'bs' : cd .., sets the Tree one directory back, just try it.
-- 'a' : add new file
-- 'd' : delete file
-- 'r': rename file
-- 'y' : Strg + c
-- 'x' : Strg + x
-- 'm' : move selected file
-- 'p' : Paste the file, regarding if you used 'y' or 'x'
+- `C-n` : Toggle the neotree. Also loads the plugin
+- `s` : Open File in vertical split
+- `S` : Open File in horizontal split
+- `bs` : cd .., sets the Tree one directory back, just try it.
+- `a` : add new file
+- `d` : delete file
+- `r`: rename file
+- `y` : Strg + c
+- `x` : Strg + x
+- `m` : move selected file
+- `p` : Paste the file, regarding if you used 'y' or 'x'
