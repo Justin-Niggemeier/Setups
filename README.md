@@ -63,4 +63,5 @@ These are already installed for C++ and python, just type
 - `<leader>ca` : Code Action, if available, will thell you some automatic fixes for an shown error
 - `<leader>di` : disable error messages
 - `<leader>de` : enable error messages
-I think the autocomplete keys are intuitive, but if you don't think so, let me know and I can change them
+
+I think the autocomplete keys are intuitive,but if you don't think so, let me know and I can change them
