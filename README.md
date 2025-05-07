@@ -48,9 +48,9 @@ Its real fast at editing file strucutres
 ## Other
 leader is space in the standard config, you can change that
 C is control
-- '<leader>gf' : auto formating, with clang or python black
-- 'C-p' : Open a find files menu
-- '<leader>fg' : in progress (life grepping through all files)
+- `<leader>gf` : auto formating, with clang or python black
+- `C-p` : Open a find files menu
+- `<leader>fg` : in progress (life grepping through all files)
 ## Error Messages and Auto complete
 These only work, if you install and include them in "nvim/lua/plugins/lspconfig"
 or just inform me and I'll write it real quick
@@ -58,9 +58,9 @@ These are already installed for C++ and python, just type
 > [!IMPORTANT]
 > :Mason -> this command will show a window, search for the following keywords and install them
 **clangd**, **basedpyright**,**black**,**clang-format**
-- 'K' : show definition of Method, only for beginniners
-- 'gd' : goto definition (Place where this function or variable is defined)
-- '<leader>ca' : Code Action, if available, will thell you some automatic fixes for an shown error
-- '<leader>di' : disable error messages
-- '<leader>de' : enable error messages
+- `K` : show definition of Method, only for beginniners
+- `gd` : goto definition (Place where this function or variable is defined)
+- `<leader>ca` : Code Action, if available, will thell you some automatic fixes for an shown error
+- `<leader>di` : disable error messages
+- `<leader>de` : enable error messages
 I think the autocomplete keys are intuitive, but if you don't think so, let me know and I can change them
